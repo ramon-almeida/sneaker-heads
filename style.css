@@ -27,3 +27,105 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+/* Write Your CSS Below */
+
+body {
+    background-color: #f3b76a;
+    font-size: 1.5em;
+    font-family: Copperplate, sans-serif;
+    color: #0d6e00;
+  }
+  
+  h1 {
+    text-align: center;
+    text-shadow: 2px 2px #6d00fb;
+  }
+  
+  #row1, #row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  #row1-section1 img, #row2-section1 img {
+    border: 5px solid #6d00fb;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #0d6e00;
+  }
+  
+  #row1-section2 p, #row2-section2 p {
+    width: 70%;
+    text-align: justify;
+  }
+  
+  #jordans-1-desc a, #jordans-2-desc a {
+    color: #dbff39;
+  }
+  
+  /* Colors */
+  
+  .yellow {
+    color: yellow;
+  }
+  
+  .red {
+    color: rgb(241, 117, 0);
+  }
+  
+  #f3b76a {
+    color: #f3b76a;
+  }
+  
+  #f17500 {
+    color: #f17500;
+  }
+  
+  #0d6e00 {
+    color: #0d6e00;
+  }
+  
+  #6d00fb {
+    color: #6d00fb;
+  }
+  
+  #dbff39 {
+    color: #dbff39;
+  }
+  
+  #74c9f1 {
+    color: #74c9f1;
+  }
+  
+  #fb4040 {
+    color: #fb4040;
+  }
+  
+  /* Sizes */
+  
+  .one-hundred-percent {
+    width: 100%;
+  }
+  
+  .seventy-percent {
+    width: 70%;
+  }
+  
+  .auto {
+    width: auto;
+  }
+  
+  .one-point-five-em {
+    font-size: 1.5em;
+  }
+  
+  .three-rem {
+    font-size: 3rem;
+  }
+  
+  .half-em {
+    font-size: .5em;
+  }
+  
+
